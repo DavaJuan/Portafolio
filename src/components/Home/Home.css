@@ -1,0 +1,36 @@
+.home-container{
+  background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./img/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-tittle-welcome{
+  color: #fafafa;
+  font-size: 3.0em;
+  margin-bottom: 20px;
+}
+
+.home-button{
+  font-size: 0.9em;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 12px;
+  background-color: #64489b;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.0em;
+}
+
+.home-button:hover{
+  transition: 0.3s;
+  box-shadow: -6px 6px 10px #fafafa12;
+  transform: translateY(-6px);
+}
