@@ -8,7 +8,9 @@ const InfoContact = () => {
   return (
     <div className='info-contact-container'>
         <div className="button-cv">
-          <button>Dowload my CV</button>
+          <a download='JuanPDávalosCV' href="./davalos.pdf">
+            <button>Dowload my CV</button>
+          </a>
         </div>
         <div className="images">
           <a href="https://github.com/DavaJuan" target="_blank">
