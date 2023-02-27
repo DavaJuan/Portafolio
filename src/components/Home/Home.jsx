@@ -2,6 +2,7 @@
 import React from 'react'
 import InfoMe from '../InfoMe/InfoMe';
 import Name from '../InfoMe/SubComponents/Name';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
       <div className='home-container'>
         <h1 className='home-tittle-welcome'>Welcome to <br/> my Portfolio.</h1>
         <a href="#contact">
-          <button className='home-button'>Contact Me</button>
+          <button className='home-button'><Link className='link-cont' to='/contacto'>Contact Me</Link></button>
         </a>
       </div>
       <Name />

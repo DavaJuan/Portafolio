@@ -17,7 +17,6 @@ const NavBar = () => {
         <h3><NavLink activeClassName='active2' className='title-home' exact to='/'>JPD</NavLink></h3>
           <nav ref={navRef}>
             <NavLink activeClassName='active' exact to='/'>Home</NavLink>
-            <NavLink activeClassName='active' exact to='/planes'>About Me</NavLink>
             <NavLink activeClassName='active' exact to='/technologies'>Technologies</NavLink>
             <NavLink activeClassName='active' exact to='/ubicacion'>Projects</NavLink>
             <NavLink activeClassName='active' exact to='/contacto'>Contact</NavLink>

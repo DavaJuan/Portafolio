@@ -46,6 +46,18 @@
   margin: 1rem;
 }
 
+@media only screen and (max-width: 950px){
+  .tech-container{
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .container-images{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
 
 
 @media only screen and (max-width: 750px){
@@ -72,10 +84,16 @@
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 450px){
+  .tech-container{
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 391px){
   .tech-container{
     height: 130vh;
-    margin: 3rem;
     padding: 0;
   }
 }
