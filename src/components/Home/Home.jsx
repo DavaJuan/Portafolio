@@ -5,7 +5,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className='home-container'>
-      <h1 className='home-tittle-welcome'>Welcome to My Portfolio.</h1>
+      <h1 className='home-tittle-welcome'>Welcome to <br/> my Portfolio.</h1>
       <a href="#contact">
         <button className='home-button'>Contact Me</button>
       </a>

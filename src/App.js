@@ -12,10 +12,10 @@ const App = () => {
     <div>
       <NavBar />
       <Home />
-      <InfoMe />
+      {/* <InfoMe />
       <Technologies />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </div>
   )
 }

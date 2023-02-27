@@ -1,18 +1,15 @@
 .infoMe-container{
-  height: 100vh;
-  padding: 25px;
-  margin: 30px;
+  min-height: 100vh;
+  margin: 20px;
+  padding: 15px;
   color: #fafafa;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  justify-items: center;
-  align-items: center;
 }
 
 .tittle-name{
+  text-align: center;
+  color: #fafafa;
   font-size: 2.0em;
-  padding: 10px;
+  padding: 15px;
 }
 
 .tittle-frontEnd{

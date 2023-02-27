@@ -6,6 +6,9 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   scroll-behavior: smooth;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {

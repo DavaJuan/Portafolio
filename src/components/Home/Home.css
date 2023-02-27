@@ -1,9 +1,20 @@
+:root{
+  --primaryColor:#212121;
+  --primaryLightColor:#484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor:#9474cc;
+  --secondaryLightColor:#c6a3ff;
+  --secondaryDarkColor:#64489b;
+  --primaryTextColor:#fafafa;
+  --secondaryTextColor:#f9f9f9;
+}
+
 .home-container{
   background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./img/background.jpg');
   background-position: center;
-  background-repeat: no-repeat center center fixed;
+  background-repeat: no-repeat center center;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,25 +23,44 @@
 }
 
 .home-tittle-welcome{
-  color: #fafafa;
+  color: var(--primaryTextColor);
   font-size: 3.0em;
-  margin-bottom: 20px;
+  padding: 2rem;
 }
 
 .home-button{
-  font-size: 0.9em;
-  color: #fafafa;
+  color: var(--primaryTextColor);
   text-transform: uppercase;
-  padding: 12px;
-  background-color: #64489b;
+  padding: 1rem;
+  background-color: var(--secondaryDarkColor);
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  font-size: 1.0em;
+  font-size: 1rem;
 }
 
 .home-button:hover{
   transition: 0.3s;
   box-shadow: -6px 6px 10px #fafafa12;
   transform: translateY(-6px);
+}
+
+
+
+@media only screen and (max-width: 700px){
+  .home-tittle-welcome{
+    font-size: 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 460px){
+  .home-tittle-welcome{
+    font-size: 1.5rem;
+  }
+
+  .home-button{
+    padding: .5rem;
+    font-size: .8rem;
+  }
 }
