@@ -2,6 +2,7 @@
 import React from 'react'
 import Me from './img/coding.jpeg';
 import './InfoMe.css';
+import InfoContact from './SubComponents/InfoContact';
 
 const InfoMe = () => {
   return (
@@ -20,6 +21,7 @@ const InfoMe = () => {
         <img src={Me} alt="me"/>
       </div>
     </div>
+      <InfoContact />
     </div>
   )
 }

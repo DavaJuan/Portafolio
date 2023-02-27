@@ -14,7 +14,7 @@ import './Technologies.css';
 const Technologies = () => {
   return (
     <div  className='tech-container'>
-      <h3 id='technologies' className='tech-tittle'>Technologies</h3>
+      <h3>Technologies</h3>
         <div className='container-images'>
           <img className='tech-img' src={HTML} alt="html"/>
           <img className='tech-img' src={CSS} alt="css"/>
@@ -25,7 +25,7 @@ const Technologies = () => {
           <img className='tech-img' src={ExpressIco} alt="express"/>
           <img className='tech-img' src={Sequelize} alt="sequelize"/>
         </div>
-          <h3 className='tech-tittle-two'>Learning</h3>
+          <h3>Learning</h3>
         <div className='container-images-two'>
             <img className='tech-img' src={TypeScript} alt="typescript" />
             <img className='tech-img' src={Python} alt="python" />

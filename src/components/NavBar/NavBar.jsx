@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import { FaTimes, FaBars} from 'react-icons/fa';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 
@@ -14,13 +14,13 @@ const NavBar = () => {
 
   return (
       <header className='nav-container'>
-        <h3><NavLink activeClassName='active' className='title-home' exact to='/'>JPD</NavLink></h3>
+        <h3><NavLink activeClassName='active2' className='title-home' exact to='/'>JPD</NavLink></h3>
           <nav ref={navRef}>
-            <NavLink activeClassName='active' exact to='/clases'>Home</NavLink>
+            <NavLink activeClassName='active' exact to='/'>Home</NavLink>
             <NavLink activeClassName='active' exact to='/planes'>About Me</NavLink>
-            <NavLink activeClassName='active' exact to='/contacto'>Technologies</NavLink>
+            <NavLink activeClassName='active' exact to='/technologies'>Technologies</NavLink>
             <NavLink activeClassName='active' exact to='/ubicacion'>Projects</NavLink>
-            <NavLink activeClassName='active' exact to='/ubicacion'>Contact</NavLink>
+            <NavLink activeClassName='active' exact to='/contacto'>Contact</NavLink>
             <button className='nav-btn nav-close-btn' onClick={showNavBar}>
               <FaTimes />
             </button>

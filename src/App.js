@@ -7,20 +7,18 @@ import Technologies from './components/Technologies/Technologies';
 import Contact from './components/Contact/Contact.jsx';
 import './App.css';
 import Name from './components/InfoMe/SubComponents/Name';
-import InfoContact from './components/InfoMe/SubComponents/InfoContact';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <Home />
-      <Name />
-      <InfoMe />
-      <InfoContact />
-      {/* <Technologies />
-      <Projects />
-      <Contact /> */}
-    </div>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <Route exact path='/' component={Home} />
+        <Route exact path='/technologies' component={Technologies} />
+        <Route exact path='/contacto' component={Contact}/>
+      </div>
+    </BrowserRouter>   
   )
 }
 
