@@ -1,63 +1,78 @@
-.infoMe-container{
-  min-height: 100vh;
-  margin: 20px;
-  padding: 15px;
-  color: #fafafa;
+:root{
+  --primaryColor:#212121;
+  --primaryLightColor:#484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor:#9474cc;
+  --secondaryLightColor:#c6a3ff;
+  --secondaryDarkColor:#64489b;
+  --primaryTextColor:#fafafa;
+  --secondaryTextColor:#f9f9f9;
 }
 
-.tittle-name{
-  text-align: center;
-  color: #fafafa;
-  font-size: 2.0em;
-  padding: 15px;
+
+.info-body{
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  color: var(--primaryTextColor);
 }
 
-.tittle-frontEnd{
-  font-size: 1.4em;
-  padding: 10px;
+.row{
+  width: 80%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px 30px;
 }
 
-.text-container{
-  font-size: 1.0em;
-  padding: 10px;
+.row .right{
+  overflow: hidden;
 }
 
-.button-cv{
-  padding: 10px;
-  margin: 10px;
-  margin-bottom: 20px;
-  font-size: 1.0em;
-  color: #fafafa;
-  background-color: #64489b;
+.row .right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
 }
 
-.button-cv:hover{
-  transition: 0.3s;
-  box-shadow: -6px 6px 10px #fafafa12;
-  transform: translateY(-6px);
-}
-
-.image-image{
-  height: 60vh;
-  box-shadow: 40px 40px #000000aa;
-}
-
-.icon-container{
+.row .left{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
-.image-icon{
-  cursor: pointer;
-  height: 10vh;
+.row .left .content{
+  padding-right: 20px;
 }
 
-.image-icon:hover{
-  transition: 0.3s;
-  height: 10vh;
-  transform: translateY(-6px);
+.row .left .content p{
+  font-size: 1.5rem;
+  line-height: 26px;
+  padding-bottom: 15px;
 }
+
+
+@media only screen and (max-width: 999px){
+  .row .left .content{
+    padding-right: 0;
+  }
+
+  .row{
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .row .left .content p{
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+

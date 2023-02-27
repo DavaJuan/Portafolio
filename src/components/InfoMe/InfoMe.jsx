@@ -3,23 +3,25 @@ import React from 'react'
 import Me from './img/coding.jpeg';
 import GitHub from './img/github.png';
 import LikedIn from './img/linkedin.png';
-import './InfoMe2.css';
+import './InfoMe.css';
 
 const InfoMe = () => {
   return (
-    <div className='infoMe-container'>
-      <div className='container-text'>
-        <h2 className='tittle-name'>My Name is Juan Pablo Dávalos</h2>
-        <h3 className='tittle-frontEnd'>FullStack Developer</h3>
-        <p className='text-container'>Since 2021 I discovered that programming was something that I really enjoyed practicing and learning more and more. <br/>
-         But in 2022 I really started studying programming at the Henry bootcamp. Learning many new and challenging technologies for me.<br/>
-         Among the technologies that I enjoy the most when using them are React, Redux and CSS.
-         </p>
+    <div className='info-body'>
+      <div className='row'>
+      <div className='left'>
+        <div className='content'>
+          <p>
+            Since 2021 I discovered that programming was something that I really enjoyed practicing and learning more and more. <br/>
+            But in 2022 I really started studying programming at the Henry bootcamp. <br/> Learning many new and challenging technologies for me. <br/>
+            Among the technologies that I enjoy the most when using them are React, Redux and CSS.
+          </p>
+        </div>
       </div>
-
-      <div className='container-img'>
-
+      <div className='right'>
+        <img src={Me} alt="me"/>
       </div>
+    </div>
     </div>
   )
 }
