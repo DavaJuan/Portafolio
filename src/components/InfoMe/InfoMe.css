@@ -12,8 +12,8 @@
 
 .info-body{
   width: 100%;
-  height: 100vh;
-  padding: 2rem;
+  height: 80vh;
+  padding: 1rem;
   display: grid;
   place-items: center;
   color: var(--primaryTextColor);
@@ -51,7 +51,7 @@
 .row .left .content p{
   font-size: 1.5rem;
   line-height: 26px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 
