@@ -8,3 +8,11 @@
   --primaryTextColor:#fafafa;
   --secondaryTextColor:#f9f9f9;
 }
+
+.container-proyects{
+  height: 100%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
