@@ -1,3 +1,14 @@
+:root{
+  --primaryColor:#212121;
+  --primaryLightColor:#484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor:#9474cc;
+  --secondaryLightColor:#c6a3ff;
+  --secondaryDarkColor:#64489b;
+  --primaryTextColor:#fafafa;
+  --secondaryTextColor:#f9f9f9;
+}
+
 .form-container{
   min-height: 100vh;
   margin: 20px;
@@ -12,7 +23,7 @@
 }
 
 .form-tittle span{
-  color: #000;
+  color: var(--secondaryDarkColor);
 }
 
 .form-contact{

@@ -5,9 +5,8 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Technologies from './components/Technologies/Technologies';
 import Contact from './components/Contact/Contact.jsx';
-import './App.css';
-import Name from './components/InfoMe/SubComponents/Name';
 import { BrowserRouter, Route } from 'react-router-dom';
+import './App.css';
 
 const App = () => {
   return (
@@ -17,9 +16,12 @@ const App = () => {
         <Route exact path='/' component={Home} />
         <Route exact path='/technologies' component={Technologies} />
         <Route exact path='/contacto' component={Contact}/>
+        <Route exact path='/proyects' component={Projects} />
+        {/* <Home />
+        <Technologies /> */}
       </div>
     </BrowserRouter>   
-  )
+  );
 }
 
 export default App;
