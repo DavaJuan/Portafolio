@@ -5,7 +5,7 @@ import Page from '../img/pageIcon.png';
 import Git from '../img/gitIcon.png';
 import './Card.css';
 
-const Card = ({title,image,body,link1,lin2}) => {
+const Card = ({title,image,body,link1,link2}) => {
   return (
     <div className='card-container'>
       <div className="image-container">
@@ -23,7 +23,7 @@ const Card = ({title,image,body,link1,lin2}) => {
           <a href={link1} target='_blank'>
             <img className='page-ico' src={Page} alt="page" />
           </a>
-          <a href={lin2} target='_blank'>
+          <a href={link2} target='_blank'>
             <img className='page-ico' src={Git} alt="git" />
           </a>
         </div>

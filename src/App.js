@@ -7,6 +7,7 @@ import Technologies from './components/Technologies/Technologies';
 import Contact from './components/Contact/Contact.jsx';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -17,8 +18,7 @@ const App = () => {
         <Route exact path='/technologies' component={Technologies} />
         <Route exact path='/contacto' component={Contact}/>
         <Route exact path='/proyects' component={Projects} />
-        {/* <Home />
-        <Technologies /> */}
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>   
   );

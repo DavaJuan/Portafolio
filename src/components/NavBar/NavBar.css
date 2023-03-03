@@ -27,7 +27,7 @@ header{
 }
 
 .title-home:hover{
-  color: var(--secondaryLightColor);
+  color: var(--secondaryDarkColor);
   cursor: pointer;
 }
 
