@@ -1,0 +1,10 @@
+:root{
+  --primaryColor:#212121;
+  --primaryTextColor:#fafafa;
+}
+
+.sub-footer{
+  color: #fafafa81;
+  text-align: center;
+  height: 5vh;
+}

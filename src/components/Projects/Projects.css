@@ -9,10 +9,24 @@
   --secondaryTextColor:#f9f9f9;
 }
 
+.proyects-title{
+  font-size: 4rem;
+  color: var(--primaryTextColor);
+  text-align: center;
+  padding: 2rem;
+}
+
 .container-proyects{
   height: 100%;
   margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+@media only screen and (max-width: 750px){
+  .proyects-title{
+    font-size: 2rem;
+  }
 }

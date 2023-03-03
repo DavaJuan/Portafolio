@@ -6,8 +6,11 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className='container-proyects'> 
-      <Cards />
+    <div className='proyects-body'>
+      <h3 className='proyects-title'>My Projects</h3>
+      <div className='container-proyects'> 
+        <Cards />
+      </div>
     </div>
   );
 }

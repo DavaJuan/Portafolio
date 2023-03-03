@@ -18,7 +18,7 @@
 .form-tittle{
   text-align: center;
   color: #fafafa;
-  font-size: 3.0em;
+  font-size: 2rem;
   padding: 15px;
 }
 
@@ -90,6 +90,10 @@
 @media (min-width: 750px){
   .form-container{
     padding: 0 2rem;
+  }
+
+  .form-tittle{
+    font-size: 4rem;
   }
 
   .form-form-container{
