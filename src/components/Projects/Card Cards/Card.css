@@ -27,6 +27,7 @@
 .image-container img{
   overflow: hidden;
   height: 200px;
+  cursor: pointer;
 }
 
 .card-content{
@@ -41,4 +42,5 @@
 .page-ico{
   width: 50px;
   margin: .5rem;
+  cursor: pointer;
 }
