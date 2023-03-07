@@ -7,6 +7,7 @@
   --secondaryDarkColor:#64489b;
   --primaryTextColor:#fafafa;
   --secondaryTextColor:#f9f9f9;
+  --error: #F54059;
 }
 
 .form-container{
@@ -63,6 +64,7 @@
   background: linear-gradient(to right, #4A00E0, #8E2DE2);
   border: 0;
   border-radius: 10px;
+  font-weight: bold;
   text-transform: uppercase;
   padding: 1.0em;
 }
@@ -82,6 +84,11 @@
 .form-info p{
   text-align: center;
   margin: 0 0 1rem 0;
+}
+
+.fail{
+  color: var(--error);
+  font-weight: bold;
 }
 
 
@@ -113,5 +120,10 @@
 
   .form-info h4{
     font-size: 1.5em;
+  }
+
+  .fail{
+    color: var(--error);
+    font-weight: bold;
   }
 }

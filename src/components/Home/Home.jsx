@@ -2,7 +2,6 @@
 import React from 'react'
 import InfoMe from '../InfoMe/InfoMe';
 import Name from '../InfoMe/SubComponents/Name';
-import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
