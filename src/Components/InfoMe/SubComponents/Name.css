@@ -1,0 +1,61 @@
+:root{
+    --primaryColor:#212121;
+    --primaryLightColor:#484848;
+    --primaryDarkColor: #000000;
+    --secondaryColor:#9474cc;
+    --secondaryLightColor:#c6a3ff;
+    --secondaryDarkColor:#64489b;
+    --primaryTextColor:#fafafa;
+    --secondaryTextColor:#f9f9f9;
+  }
+  
+  .container-name{
+    height: 22vh;
+    color: var(--primaryTextColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primaryColor);
+  }
+  
+  .container-name h3{
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  
+  .container-name h4{
+    font-size: 2rem;
+    padding: .5rem;
+  }
+  
+  
+  @media only screen and (max-width: 700px){
+    .container-name h3{
+      font-size: 2rem;
+    }
+  
+    .container-name h4{
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 530px){
+    .container-name h3{
+      font-size: 1.4rem;
+    }
+  
+    .container-name h4{
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 383px){
+    .container-name h3{
+      font-size: 1rem;
+    }
+  
+    .container-name h4{
+      font-size: .8rem;
+    }
+  }

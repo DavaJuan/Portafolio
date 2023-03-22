@@ -1,0 +1,52 @@
+:root{
+    --primaryColor:#212121;
+    --primaryLightColor:#484848;
+    --primaryDarkColor: #000000;
+    --secondaryColor:#9474cc;
+    --secondaryLightColor:#c6a3ff;
+    --secondaryDarkColor:#64489b;
+    --primaryTextColor:#fafafa;
+    --secondaryTextColor:#f9f9f9;
+  }
+  
+  .content-all{
+    height: 100%;
+    color: var(--primaryTextColor);
+  }
+  
+  .container-infoMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container-infoMe p{
+    font-size: 1.3rem;
+    padding: 2rem;
+  }
+  
+  .container-infoMe img{
+    width: 20rem;
+    border-radius: 20px;
+  }
+  
+  @media only screen and (max-width: 999px){
+    .container-infoMe img{
+      border-radius: 200px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 400px){
+    .container-infoMe p{
+      font-size: 1.2rem;
+      padding: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 310px){
+    .container-infoMe img{
+      width: 15rem;
+    }
+  }

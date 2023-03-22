@@ -1,0 +1,42 @@
+:root{
+    --primaryTextColor:#fafafa;
+    --secondaryTextColor:#f9f9f9;
+  }
+  
+  .info-contact-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .button-cv{
+    padding: 1rem;
+  }
+  
+  .button-cv button{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primaryTextColor);
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  }
+  
+  .button-cv button:hover{
+    transition: 0.3s;
+    box-shadow: -6px 6px 10px #fafafa12;
+    transform: translateY(-6px);
+    cursor: pointer;
+  }
+  
+  .images img{
+    margin: 1rem;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+:root{
+  --primaryColor:#212121;
+  --primaryLightColor:#484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor:#9474cc;
+  --secondaryLightColor:#c6a3ff;
+  --secondaryDarkColor:#64489b;
+  --primaryTextColor:#fafafa;
+  --secondaryTextColor:#f9f9f9;
+}
+
+.card-container{
+  width: 300px;
+  overflow: hidden;
+  transition: .5s;
+  animation: ease-in;
+  color: var(--primaryTextColor);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 1px 0px
+}
+
+.image-container img{
+  overflow: hidden;
+  height: 200px;
+  cursor: pointer;
+}
+
+.card-content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+.card-title{
+  margin-bottom: 0.5rem;
+}
+
+.page-ico{
+  width: 50px;
+  margin: .5rem;
+  cursor: pointer;
+}
