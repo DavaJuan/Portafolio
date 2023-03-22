@@ -10,7 +10,7 @@
   }
   
   .home-container{
-    background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./img/background.jpg');
+    background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./Img/background.jpg');
     background-position: center;
     background-repeat: no-repeat center center;
     background-size: cover;
@@ -51,7 +51,7 @@
   
   @media only screen and (max-width: 700px){
     .home-container{
-      background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./img/background-movile.jpg');
+      background-image: linear-gradient(rgba(5, 7, 12, 0.744),rgba(5, 7, 12, 0.744)) ,url('./Img/background-movile.jpg');
       background-position: center;
       background-repeat: no-repeat center center;
       background-size: cover;
