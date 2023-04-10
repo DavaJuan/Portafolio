@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import Pokemania from '../img/Pokemania.png';
-import WeatherApp from '../img/WeatherApp.png';
+import EmojiPicker from '../img/EmojiPicker.png';
 import Burnfitness from '../img/Burnfitness.png';
 import './Cards.css';
 
@@ -18,13 +18,11 @@ const Cards = () => {
       />
 
       <Card 
-        title='Weather App'
-        image={WeatherApp}
-        body='
-        This small project consists of the use of a weather API which allows you to check the weather of any city in the world. The creation of this project was only as a small practice using AXIOS.
-        Not responsive yet.'
-        link1=''
-        link2=''
+        title='Emoji Picker'
+        image={EmojiPicker}
+        body='This small project consists of the use of the UseRef Hook. In this project you can filter emojis with keywords like: love, hand, face, etc. Using only React, JavaScript and pure Css.'
+        link1='https://emoji-picker-gamma.vercel.app/'
+        link2='https://github.com/DavaJuan/Emoji-Picker'
         />
 
         <Card 
