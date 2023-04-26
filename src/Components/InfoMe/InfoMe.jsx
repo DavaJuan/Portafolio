@@ -1,6 +1,6 @@
 import React from 'react'
 import { TbBrandGithub,TbBrandLinkedin } from 'react-icons/tb';
-import Me from './img/Me.jpeg';
+import Me from './img/me.jpeg';
 
 import './InfoMe.css';
 
