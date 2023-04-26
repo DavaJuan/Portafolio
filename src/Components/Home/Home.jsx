@@ -1,6 +1,5 @@
 import React from 'react'
 import InfoMe from '../InfoMe/InfoMe';
-import Name from '../InfoMe/SubComponents/Name';
 import './Home.css';
 
 const Home = () => {
@@ -13,7 +12,6 @@ const Home = () => {
             <button className='home-button'>Contact Me</button>
           </a>
         </div>
-        <Name />
         <InfoMe />
       </div>
     </div>
