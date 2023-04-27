@@ -1,35 +1,57 @@
-import React from 'react'
-import JavaScript from './img/javascript-svgrepo-com.svg';
-import HTML from './img/html-svgrepo-com.svg';
-import CSS from './img/css-3-svgrepo-com.svg';
-import ReactIco from './img/react-svgrepo-com.svg';
-import ReduxIco from './img/redux-svgrepo-com.svg';
-import NodeJs from './img/node-js-svgrepo-com.svg';
-import ExpressIco from './img/express-svgrepo-com.svg';
-import Sequelize from './img/sequelize-svgrepo-com.svg';
-import TypeScript from './img/typescript-icon-svgrepo-com.svg';
-import Python from './img/python-svgrepo-com.svg';
+import React from 'react';
+import { SiHtml5,SiCss3,SiJavascript,SiRedux,SiTailwindcss, SiExpress, SiPostgresql } from 'react-icons/si';
+import { RiReactjsFill } from 'react-icons/ri';
+import { GrNode } from 'react-icons/gr';
+
 import './Technologies.css';
 
 const Technologies = () => {
   return (
-    <div  className='tech-container'>
-      <h3>Technologies</h3>
-        <div className='container-images'>
-          <img className='tech-img' src={HTML} alt="html"/>
-          <img className='tech-img' src={CSS} alt="css"/>
-          <img className='tech-img' src={JavaScript} alt="javascript"/>
-          <img className='tech-img' src={ReactIco} alt="react"/>
-          <img className='tech-img' src={ReduxIco} alt="redux"/>
-          <img className='tech-img' src={NodeJs} alt="nodesj"/>
-          <img className='tech-img' src={ExpressIco} alt="express"/>
-          <img className='tech-img' src={Sequelize} alt="sequelize"/>
+    <div className='tech-container'>
+       <h3>Skills</h3>
+       <p>Technologies and Frameworks I worked with</p> 
+       <div className='skillsGrid'>
+        <div className='skillsFront'>
+          <h4>Front End</h4>
+          <div className='front'>
+            <span>
+              <SiHtml5 /> HTML
+            </span>
+            <span>
+              <SiCss3 /> CSS
+            </span>
+            <span>
+              <SiJavascript /> JavaScript
+            </span>
+            <span>
+              <RiReactjsFill /> React
+            </span>
+            <span>
+              <SiRedux /> Redux
+            </span>
+            <span>
+              <RiReactjsFill /> React Native
+            </span>
+            <span>
+              <SiTailwindcss /> Tailwind
+            </span>
+          </div>
         </div>
-          <h3>Learning</h3>
-        <div className='container-images-two'>
-            <img className='tech-img' src={TypeScript} alt="typescript" />
-            <img className='tech-img' src={Python} alt="python" />
-        </div>   
+        <div className='skillsBack'>
+          <h4>Back End</h4>
+          <div className='back'>
+            <span>
+              <GrNode /> Node JS
+            </span>
+            <span>
+               <SiExpress /> Express
+            </span>
+            <span>
+              <SiPostgresql /> Postgresql
+            </span>
+          </div>
+        </div>
+       </div>
     </div>
   );
 }
