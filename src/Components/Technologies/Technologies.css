@@ -10,7 +10,7 @@
 }
 
 .tech-container{
-  height: 100vh;
+  height: auto;
   color: var(--primaryTextColor);
   display: flex;
   align-items: center;
@@ -18,9 +18,10 @@
   padding: 2rem;
 }
 
-.tech-container h3{
+.titleSkills{
   padding: 1rem;
   font-size: 3rem;
+  text-align: center;
 }
 
 .tech-container p{

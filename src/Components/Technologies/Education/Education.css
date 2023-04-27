@@ -1,0 +1,35 @@
+:root{
+  --primaryColor:#212121;
+  --primaryLightColor:#484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor:#9474cc;
+  --secondaryLightColor:#c6a3ff;
+  --secondaryDarkColor:#64489b;
+  --primaryTextColor:#fafafa;
+  --secondaryTextColor:#f9f9f9;
+}
+
+.titleEducation{
+  padding: 1.5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.containerGrid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5rem;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  border: solid 2px var(--primaryTextColor);
+  border-radius: 15px;
+  box-shadow: -10px 10px 25px var(--primaryDarkColor);
+}
+
+
+@media only screen and (max-width: 750px){
+  .containerGrid{
+    grid-template-columns: repeat(1,1fr);
+  }
+}

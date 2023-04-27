@@ -4,11 +4,12 @@ import { RiReactjsFill } from 'react-icons/ri';
 import { GrNode } from 'react-icons/gr';
 
 import './Technologies.css';
+import Education from './Education/Education';
 
 const Technologies = () => {
   return (
     <div className='tech-container'>
-       <h3>Skills</h3>
+       <h3 className='titleSkills'>Skills</h3>
        <p>Technologies and Frameworks I worked with</p> 
        <div className='skillsGrid'>
         <div className='skillsFront'>
@@ -52,6 +53,9 @@ const Technologies = () => {
           </div>
         </div>
        </div>
+       <div>
+       </div>
+       <Education />
     </div>
   );
 }
