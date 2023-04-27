@@ -11,7 +11,7 @@ const InfoMe = () => {
         <h2>My Name is Juan Pablo Dávalos</h2>
         <h4>Full Stack Developer</h4>
         <p>
-        Since 2021 I realize that programming it's something that I really enjoy practicing and learning more every day.
+        Since 2021 I realize that programming it is something that I really enjoy practicing and learning more every day.
         But in 2022 I started to studying programming in Henry's bootcamp.
         Learning news and challenging technologies. <br />
         Today I prefer to work as a FrontEnd Developer.

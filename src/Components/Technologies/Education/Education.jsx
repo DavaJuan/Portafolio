@@ -10,7 +10,7 @@ const Education = () => {
     <div>
       <h3 className='titleEducation'>Education <TbSchool /></h3>
       <div className='containerGrid'>
-        <div className='prgramming'>
+        <div className='programming'>
           <h4>Programming</h4>
           <div>
             <p>Full Stack Developer</p>
