@@ -46,7 +46,7 @@ const Contact = () => {
         </div>
         <div className='form'>
           <h4>Send me an e-mail</h4>
-          <div >
+          <div>
           <form className='inputs' ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input 
@@ -64,14 +64,7 @@ const Contact = () => {
             <textarea name="message" cols="30" rows="10"/>
             <button className='buttonSend' type="submit" value="Send">Send <BsSend /></button>
           </form>
-            {/* <label>Name</label>
-            <input type="text" placeholder='Insert your name'/>
-            <label>Email</label>
-            <input type="text" placeholder='Insert your email'/>
-            <label>Massage</label>
-            <textarea name="message" cols="30" rows="10" placeholder='Write your mesage'></textarea> */}
           </div>
-          {/* <button className='buttonSend'>Send</button> */}
         </div>
       </div>
     </div>
