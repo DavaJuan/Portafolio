@@ -5,7 +5,7 @@ const Footer2 = () => {
   return (
     <div className='sub-footer'>
       <h4>
-        © Made by Juan P. Dávalos. All rights reserved
+        © Made by JPD. All rights reserved
       </h4>
     </div>
   );

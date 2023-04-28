@@ -13,6 +13,7 @@
   height: auto;
   width: auto;
   color: var(--primaryTextColor);
+  padding: 2rem;
 }
 
 .contAll h3{
@@ -23,10 +24,10 @@
 
 .contactGrid{
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 40% 40% 20%;
   justify-items: center;
   align-items: center;
-  gap: 1rem;
+  padding: 2rem;
 }
 
 .contacts{
@@ -86,6 +87,7 @@
   border: 1px solid var(--primaryTextColor);
   border-radius: 15px;
   color: var(--primaryTextColor);
+  box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
 .inputs label{
@@ -100,6 +102,7 @@
   border-radius: 15px;
   color: var(--primaryTextColor);
   resize: none;
+  box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
 .buttonSend{
