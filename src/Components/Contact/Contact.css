@@ -1,15 +1,16 @@
-:root{
-  --primaryColor:#212121;
-  --primaryLightColor:#484848;
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
   --primaryDarkColor: #000000;
-  --secondaryColor:#9474cc;
-  --secondaryLightColor:#c6a3ff;
-  --secondaryDarkColor:#64489b;
-  --primaryTextColor:#fafafa;
-  --secondaryTextColor:#f9f9f9;
+  --secondaryColor: #9474cc;
+  --secondaryLightColor: #c6a3ff;
+  --secondaryDarkColor: #64489b;
+  --primaryTextColor: #fafafa;
+  --secondaryTextColor: #f9f9f9;
+  --error: #e72340;
 }
 
-.contAll{
+.contAll {
   height: auto;
   color: var(--primaryTextColor);
   padding: 2rem;
@@ -19,7 +20,7 @@
   flex-direction: column;
 }
 
-.contAll h3{
+.contAll h3 {
   padding: 1rem;
   font-size: 3rem;
   text-align: center;
@@ -27,22 +28,22 @@
 
 /* CONTACT  */
 
-.contactGrid{
+.contactGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 3rem;
 }
 
-.contacts{
+.contacts {
   height: auto;
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
   justify-items: center;
   padding: 2rem;
 }
 
-.contact{
+.contact {
   height: 250px;
   width: 350px;
   display: flex;
@@ -56,21 +57,47 @@
 }
 
 .contact p {
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
-.ContInco{
+.ContInco {
   font-size: 1.8rem;
 }
 
-.pName{
+.containerA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerA a {
+  color: var(--primaryTextColor);
+  text-decoration: none;
+}
+
+.rowRight {
+  font-size: 1.5rem;
+  padding-left: 5px;
+  transition: 0.5s;
+}
+
+.multimedia:hover .rowRight {
+  transform: translate(0.25rem);
+}
+
+.pName {
   font-size: 1.2rem;
 }
 
+.errorMessage {
+  color: var(--error);
+  padding-top: 8px;
+  padding-left: 5px;
+}
 
 /* FORM */
 
-.form{
+.form {
   height: auto;
   display: flex;
   justify-content: center;
@@ -78,12 +105,12 @@
   flex-direction: column;
 }
 
-.form h4{
+.form h4 {
   text-align: center;
   font-size: 1.5rem;
 }
 
-.inputs{
+.inputs {
   width: 500px;
   margin: 1rem;
   padding: 2rem;
@@ -95,12 +122,12 @@
   border-radius: 15px;
 }
 
-.inputs label{
+.inputs label {
   font-size: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-.inputs input{
+.inputs input {
   width: 400px;
   padding: 1rem;
   border-radius: 15px;
@@ -111,86 +138,82 @@
   box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
-.inputs textarea{
+.inputs textarea {
   border-radius: 15px;
   border: 1px solid var(--primaryTextColor);
   background: transparent;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--primaryTextColor);
   outline: none;
   resize: none;
 }
 
-.inputs button{
-  padding: .5rem;
+#inputSubmit {
+  padding: 0.5rem;
   width: 150px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
   color: var(--primaryTextColor);
   border: none;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
-.buttonContainer{
+.divInpuntSend {
   display: flex;
   justify-content: center;
 }
 
-
-@media only screen and (max-width: 1050px){
-  .contactGrid{
+@media only screen and (max-width: 1050px) {
+  .contactGrid {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
   }
 
-  .contacts{
-    grid-template-columns: repeat(2,1fr);
+  .contacts {
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     padding: 1rem;
   }
 
-  .form h4{
+  .form h4 {
     padding: 2rem;
   }
 }
 
-
-
-@media only screen and (max-width: 870px){
-  .contacts{
-    grid-template-columns: repeat(1,1fr);
+@media only screen and (max-width: 870px) {
+  .contacts {
+    grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
   }
 }
 
-
-@media only screen and (max-width: 620px){
-  .inputs{
+@media only screen and (max-width: 620px) {
+  .inputs {
     width: 350px;
     padding: 1rem;
   }
 
-  .inputs label{
+  .inputs label {
     font-size: 1.2rem;
   }
 
-  .inputs input{
+  .inputs input {
     width: 300px;
   }
 
-  .inputs textarea{
+  .inputs textarea {
     width: 300px;
   }
 }
 
-
-@media only screen and (max-width: 400px){
-  .contact{
+@media only screen and (max-width: 400px) {
+  .contact {
     height: 200px;
     width: 300px;
   }
