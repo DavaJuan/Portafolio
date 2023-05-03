@@ -30,7 +30,6 @@ const Contact = () => {
       <h3>Contact Me</h3>
       <div className='contactGrid'>
         <div className='contacts'>
-          <h4>Talk to Me</h4>
           <div className='contact'>
             <BsInstagram className='ContInco'/>
             <p className='pName'>Instagram</p>
@@ -45,26 +44,26 @@ const Contact = () => {
           </div>
         </div>
         <div className='form'>
-          <h4>Send me an e-mail</h4>
-          <div>
+          <h4>Send me an e-mail</h4>    
           <form className='inputs' ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input 
               type="text" 
               name="user_name" 
-              placeholder='Insert your name'
+              placeholder='Insert your name...'
             />
             <label>Email</label>
             <input 
               type="email" 
               name="user_email" 
-              placeholder='Insert your email'
+              placeholder='Insert your email...'
             />
             <label>Message</label>
-            <textarea name="message" cols="30" rows="10"/>
-            <button className='buttonSend' type="submit" value="Send">Send <BsSend /></button>
+            <textarea name="message" cols="30" rows="10" placeholder='Write your massage...'/>
+            <div className='buttonContainer'>
+              <button className='buttonSend' type="submit" value="Send">Send <BsSend /></button>
+            </div>
           </form>
-          </div>
         </div>
       </div>
     </div>

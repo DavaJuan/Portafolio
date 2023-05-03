@@ -40,7 +40,7 @@
 
 .skillsFront{
   width: 300px;
-  border: 1px solid var(--primaryTextColor);
+  border: 2px solid var(--primaryTextColor);
   border-radius: 15px;
   padding: 2rem;
   box-shadow: -10px 10px 25px var(--primaryDarkColor);
