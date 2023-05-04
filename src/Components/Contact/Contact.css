@@ -81,8 +81,12 @@
   transition: 0.5s;
 }
 
-.multimedia:hover .rowRight {
-  transform: translate(0.25rem);
+.multimedia {
+  transition: 0.5s;
+}
+
+.multimedia:hover {
+  color: #ffffff6f;
 }
 
 .pName {
@@ -146,6 +150,7 @@
   color: var(--primaryTextColor);
   outline: none;
   resize: none;
+  box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
 #inputSubmit {

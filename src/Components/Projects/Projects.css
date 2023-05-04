@@ -1,32 +1,25 @@
-:root{
-  --primaryColor:#212121;
-  --primaryLightColor:#484848;
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
   --primaryDarkColor: #000000;
-  --secondaryColor:#9474cc;
-  --secondaryLightColor:#c6a3ff;
-  --secondaryDarkColor:#64489b;
-  --primaryTextColor:#fafafa;
-  --secondaryTextColor:#f9f9f9;
+  --secondaryColor: #9474cc;
+  --secondaryLightColor: #c6a3ff;
+  --secondaryDarkColor: #64489b;
+  --primaryTextColor: #fafafa;
+  --secondaryTextColor: #f9f9f9;
 }
 
-.proyects-title{
-  font-size: 4rem;
+.proyects-title {
+  font-size: 3rem;
   color: var(--primaryTextColor);
   text-align: center;
   padding: 2rem;
 }
 
-.container-proyects{
+.container-proyects {
   height: 100%;
   margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-@media only screen and (max-width: 750px){
-  .proyects-title{
-    font-size: 2rem;
-  }
 }

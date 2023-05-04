@@ -1,0 +1,46 @@
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
+  --primaryDarkColor: #000000;
+  --primaryTextColor: #fafafa;
+}
+
+.navContainer {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.8s ease-in;
+  background: transparent;
+}
+
+.navBackground {
+  background-color: var(--primaryColor);
+  box-shadow: 0px 1px 25px var(--primaryDarkColor);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav span a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.buttons button {
+  padding: 0.7rem;
+  margin: 1rem;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}

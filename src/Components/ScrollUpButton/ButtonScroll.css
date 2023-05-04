@@ -1,0 +1,24 @@
+.scroll-up-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-up-button:hover {
+  opacity: 0.8;
+}
+
+.scroll-up-button .visible {
+  display: block;
+}

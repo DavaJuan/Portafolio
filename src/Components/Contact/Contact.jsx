@@ -40,11 +40,8 @@ const Contact = () => {
     }
   };
 
-  const regex =
-    /^(([^<>()[].,;:\s@"]+(.[^<>()[].,;:\s@"]+)*)|(".+"))@(([^<>()[].,;:\s@"]+.)+[^<>()[].,;:\s@"]{2,})$/i;
-
   return (
-    <div className="contAll">
+    <div id="contacto" className="contAll">
       <h3>Contact Me</h3>
       <div className="contactGrid">
         <div className="contacts">
@@ -53,7 +50,11 @@ const Contact = () => {
             <p className="pName">Instagram</p>
             <p>@jpd_web_developer.23</p>
             <div className="containerA">
-              <a className="multimedia" href="" target="_blank">
+              <a
+                className="multimedia"
+                href="https://www.instagram.com/jpd_web_developer.23/"
+                target="_blank"
+              >
                 Check my Instagram
               </a>
               <BsArrowRight className="rowRight" />
@@ -93,17 +94,12 @@ const Contact = () => {
             <input
               {...register("email", {
                 required: true,
-                pattern: regex,
               })}
               id="email"
               type="email"
             />
-            {errors.email?.type === "pattern" ? (
-              <p className="errorMessage">Email invalid</p>
-            ) : (
-              errors.email?.type === "required" && (
-                <p className="errorMessage">required information</p>
-              )
+            {errors.email?.type === "required" && (
+              <p className="errorMessage">required information</p>
             )}
             <label htmlFor="message">Message</label>
             <textarea
