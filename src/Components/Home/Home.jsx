@@ -1,17 +1,20 @@
 import React from "react";
 import InfoMe from "../InfoMe/InfoMe";
+import { useTranslation } from "react-i18next";
 import "./Home.css";
 
 const Home = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div id="home">
       <div>
         <div className="home-container">
           <h1 className="home-tittle-welcome">
-            Welcome to <br /> my Portfolio.
+            {t("home.title1")} <br /> {t("home.title2")}.
           </h1>
           <a href="#contacto">
-            <button className="home-button">Contact Me</button>
+            <button className="home-button">{t("home.button")}</button>
           </a>
         </div>
         <InfoMe />

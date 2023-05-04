@@ -1,23 +1,23 @@
 import React from "react";
 import { TbBrandGithub, TbBrandLinkedin } from "react-icons/tb";
+import { useTranslation } from "react-i18next";
 import Me from "./img/me.jpeg";
 
 import "./InfoMe.css";
 
 const InfoMe = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="grid">
       <div className="container-text">
-        <h2>My Name is Juan Pablo Dávalos</h2>
+        <h2>{t("InfoMe.title1")}</h2>
         <h4>Full Stack Developer</h4>
         <p>
-          Since 2021 I realize that programming it is something that I really
-          enjoy practicing and learning more every day. But in 2022 I started to
-          studying programming in Henry's bootcamp. Learning news and
-          challenging technologies. <br />
-          Today I prefer to work as a FrontEnd Developer.
+          {t("InfoMe.InfoP")}
+          <br />
+          {t("InfoMe.InfoP2")}
         </p>
-        <button>Download My CV</button>
+        <button>{t("InfoMe.cv")}</button>
         <div className="containerIcons">
           <a href="https://github.com/DavaJuan" target="_blanck">
             <TbBrandGithub />

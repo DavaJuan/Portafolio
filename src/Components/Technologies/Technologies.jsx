@@ -1,20 +1,30 @@
-import React from 'react';
-import { SiHtml5,SiCss3,SiJavascript,SiRedux,SiTailwindcss, SiExpress, SiPostgresql } from 'react-icons/si';
-import { RiReactjsFill } from 'react-icons/ri';
-import { GrNode } from 'react-icons/gr';
+import React from "react";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiRedux,
+  SiTailwindcss,
+  SiExpress,
+  SiPostgresql,
+} from "react-icons/si";
+import { RiReactjsFill } from "react-icons/ri";
+import { GrNode } from "react-icons/gr";
+import { useTranslation } from "react-i18next";
 
-import './Technologies.css';
-import Education from './Education/Education';
+import "./Technologies.css";
+import Education from "./Education/Education";
 
 const Technologies = () => {
+  const [t, i18n] = useTranslation("global");
   return (
-    <div className='tech-container'>
-       <h3 className='titleSkills'>Skills</h3>
-       <p>Technologies and Frameworks I worked with</p> 
-       <div className='skillsGrid'>
-        <div className='skillsFront'>
+    <div className="tech-container">
+      <h3 className="titleSkills">{t("Skills.title")}</h3>
+      <p>{t("Skills.title2")}</p>
+      <div className="skillsGrid">
+        <div className="skillsFront">
           <h4>Front End</h4>
-          <div className='front'>
+          <div className="front">
             <span>
               <SiHtml5 /> HTML
             </span>
@@ -38,26 +48,25 @@ const Technologies = () => {
             </span>
           </div>
         </div>
-        <div className='skillsBack'>
+        <div className="skillsBack">
           <h4>Back End</h4>
-          <div className='back'>
+          <div className="back">
             <span>
               <GrNode /> Node JS
             </span>
             <span>
-               <SiExpress /> Express
+              <SiExpress /> Express
             </span>
             <span>
               <SiPostgresql /> Postgresql
             </span>
           </div>
         </div>
-       </div>
-       <div>
-       </div>
-       <Education />
+      </div>
+      <div></div>
+      <Education />
     </div>
   );
-}
+};
 
 export default Technologies;

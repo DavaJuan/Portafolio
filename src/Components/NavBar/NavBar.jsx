@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./NavBar.css";
 
 const NavBar = () => {
   const [color, setColor] = useState(false);
+
+  const [t, i18n] = useTranslation("global");
 
   const handleColor = () => {
     if (window.scrollY >= 70) {
@@ -21,8 +24,8 @@ const NavBar = () => {
           <a href="#home">JPD</a>
         </span>
         <div className="buttons">
-          <button>EN</button>
-          <button>ES</button>
+          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
+          <button onClick={() => i18n.changeLanguage("es")}>ES</button>
         </div>
       </div>
     </nav>

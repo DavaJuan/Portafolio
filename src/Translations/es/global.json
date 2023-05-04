@@ -1,0 +1,26 @@
+{
+  "home": {
+    "title1": "Bienvenido a",
+    "title2": "mí Portafolio",
+    "button": "Contactame"
+  },
+  "InfoMe": {
+    "title1": "Mi nombre es Juan Pablo Dávalos",
+    "InfoP": "Desde 2021 me di cuenta que programar es algo que realmente disfruto mucho, practicando y aprendiendo cada día más. Pero en 2022 comencé a estudiar programación en el bootcamp Henry. Aprendiendo nuevas y desafiantes tecnologías.",
+    "InfoP2": "Hoy en día prefiero trabajar como Desarrollador FrontEnd.",
+    "cv": "Descargar mi CV"
+  },
+  "Skills": {
+    "title": "Habilidades",
+    "title2": "Tecnologías y Frameworks con los que trabajo"
+  },
+  "Education": {
+    "title": "Educación",
+    "prog": "Programación",
+    "idioma": "Idioma",
+    "sb1": "Desarrollador Full Stack",
+    "sb2": "Ingles",
+    "inst": "Instituto E.way",
+    "lvl": "Nivel B2"
+  }
+}

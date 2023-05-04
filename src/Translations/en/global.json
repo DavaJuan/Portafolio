@@ -1,1 +1,26 @@
-{}
+{
+  "home": {
+    "title1": "Welcome to",
+    "title2": "my Portfolio",
+    "button": "Contact Me"
+  },
+  "InfoMe": {
+    "title1": "My Name is Juan Pablo Dávalos",
+    "InfoP": "Since 2021 I realize that programming it is something that I really enjoy practicing and learning more every day. But in 2022 I started to studying programming in Henry's bootcamp. Learning news and challenging technologies.",
+    "InfoP2": "Today I prefer to work as a FrontEnd Developer.",
+    "cv": "Download my cv"
+  },
+  "Skills": {
+    "title": "Skills",
+    "title2": "Technologies and Frameworks I worked with"
+  },
+  "Education": {
+    "title": "Education",
+    "prog": "Programming",
+    "idioma": "Language",
+    "sb1": "Full Stack Developer",
+    "sb2": "English",
+    "inst": "Institute E.way",
+    "lvl": "Level B2"
+  }
+}
