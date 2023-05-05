@@ -22,5 +22,25 @@
     "sb2": "English",
     "inst": "Institute E.way",
     "lvl": "Level B2"
+  },
+  "Projects": {
+    "title": "Projects",
+    "text": "Visit site"
+  },
+  "ContacMe": {
+    "title": "Contact Me",
+    "title2": "Send me an e-mail",
+    "name": "Name",
+    "msj": "Message",
+    "button": "Send",
+    "insta": "Check my Instagram",
+    "wpp": "Write me",
+    "pl1": "Write your name",
+    "pl2": "Write your Email",
+    "pl3": "Write a message"
+  },
+  "Footer": {
+    "phone": "Phone",
+    "text": "Made by JPD. All rights reserved"
   }
 }

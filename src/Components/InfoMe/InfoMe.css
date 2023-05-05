@@ -1,114 +1,115 @@
-:root{
-    --primaryColor:#212121;
-    --primaryLightColor:#484848;
-    --primaryDarkColor: #000000;
-    --secondaryColor:#9474cc;
-    --secondaryLightColor:#c6a3ff;
-    --secondaryDarkColor:#64489b;
-    --primaryTextColor:#fafafa;
-    --secondaryTextColor:#f9f9f9;
-  }
-  
-.grid{
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor: #9474cc;
+  --secondaryLightColor: #c6a3ff;
+  --secondaryDarkColor: #64489b;
+  --primaryTextColor: #fafafa;
+  --secondaryTextColor: #f9f9f9;
+}
+
+.grid {
   height: 100vh;
   padding: 2rem;
   color: var(--primaryTextColor);
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
 }
 
-.container-text h2{
+.container-text h2 {
   text-align: center;
   font-size: 3rem;
   padding: 1rem;
 }
 
-.container-text h4{
+.container-text h4 {
   text-align: center;
   font-size: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-.container-text p{
+.container-text p {
   padding: 1rem;
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 
-.container-text button{
+.container-text button {
   padding: 1rem;
   margin: 1rem;
   border: none;
   border-radius: 10px;
-  background: #8E2DE2;
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
   color: var(--primaryTextColor);
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
 }
 
-.containerIcons a{
+.containerIcons a {
   color: var(--primaryTextColor);
   font-size: 3rem;
   padding: 1rem;
 }
 
-.containerImg img{
+.containerImg img {
   height: 400px;
   border-radius: 200px;
   border: 2px solid var(--primaryTextColor);
 }
 
+.link {
+  color: var(--primaryTextColor);
+  text-decoration: none;
+}
 
-
-
-@media only screen and (max-width: 1000px){
-  .grid{
+@media only screen and (max-width: 1000px) {
+  .grid {
     height: 100%;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .container-text{
+  .container-text {
     text-align: center;
   }
 
-  .containerImg img{
+  .containerImg img {
     margin: 1rem;
     height: 300px;
     border-radius: 150px;
   }
 }
 
-@media only screen and (max-width: 600px){
-  .container-text h2{
+@media only screen and (max-width: 600px) {
+  .container-text h2 {
     font-size: 2.1rem;
   }
 
-  .container-text h4{
+  .container-text h4 {
     font-size: 1.2rem;
   }
 
-  .container-text p{
-    font-size: 1.1rem
+  .container-text p {
+    font-size: 1.1rem;
   }
 
-  .containerImg img{
+  .containerImg img {
     margin: 1rem;
     height: 200px;
     border-radius: 100px;
   }
 }
 
-@media only screen and (max-width: 300px){
-
-  .container-text h2{
+@media only screen and (max-width: 300px) {
+  .container-text h2 {
     font-size: 2rem;
-  }  
+  }
 
-  .container-text p{
-    font-size: 1rem
+  .container-text p {
+    font-size: 1rem;
   }
 }

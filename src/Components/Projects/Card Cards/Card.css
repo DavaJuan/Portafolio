@@ -1,46 +1,57 @@
-:root{
-  --primaryColor:#212121;
-  --primaryLightColor:#484848;
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
   --primaryDarkColor: #000000;
-  --secondaryColor:#9474cc;
-  --secondaryLightColor:#c6a3ff;
-  --secondaryDarkColor:#64489b;
-  --primaryTextColor:#fafafa;
-  --secondaryTextColor:#f9f9f9;
+  --secondaryColor: #9474cc;
+  --secondaryLightColor: #c6a3ff;
+  --secondaryDarkColor: #64489b;
+  --primaryTextColor: #fafafa;
+  --secondaryTextColor: #f9f9f9;
 }
 
-.card-container{
+.card-container {
   width: 300px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   animation: ease-in;
   color: var(--primaryTextColor);
   text-align: center;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--primaryTextColor);
 }
 
-.card-container:hover{
+.card-container:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 1px 0px
+  box-shadow: -5px 5px 25px var(--primaryDarkColor);
 }
 
-.image-container img{
+.image-container img {
   overflow: hidden;
   height: 200px;
-  cursor: pointer;
 }
 
-.card-content{
+.card-content {
   margin: 1rem;
   margin-top: 0.5rem;
 }
 
-.card-title{
+.card-title {
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.page-ico{
-  width: 50px;
-  margin: .5rem;
+.cardP {
+  color: #fafafa91;
+}
+
+.page-ico {
+  font-size: 2.5rem;
+  color: var(--primaryTextColor);
+  margin: 0.5rem;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.page-ico:hover {
+  color: #fafafa91;
 }

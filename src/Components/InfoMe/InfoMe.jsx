@@ -1,6 +1,7 @@
 import React from "react";
 import { TbBrandGithub, TbBrandLinkedin } from "react-icons/tb";
 import { useTranslation } from "react-i18next";
+import CV from "../../assets/Dávalos_Juan_Pablo_CV.pdf";
 import Me from "./img/me.jpeg";
 
 import "./InfoMe.css";
@@ -17,7 +18,11 @@ const InfoMe = () => {
           <br />
           {t("InfoMe.InfoP2")}
         </p>
-        <button>{t("InfoMe.cv")}</button>
+        <button>
+          <a className="link" download="JuanPDavalosCV" href={CV}>
+            {t("InfoMe.cv")}
+          </a>
+        </button>
         <div className="containerIcons">
           <a href="https://github.com/DavaJuan" target="_blanck">
             <TbBrandGithub />

@@ -3,9 +3,13 @@ import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { BsWhatsapp, BsInstagram, BsSend, BsArrowRight } from "react-icons/bs";
 
+import { useTranslation } from "react-i18next";
+
 import "./Contact.css";
 
 const Contact = () => {
+  const [t, i18n] = useTranslation("global");
+
   const {
     register,
     handleSubmit,
@@ -42,7 +46,7 @@ const Contact = () => {
 
   return (
     <div id="contacto" className="contAll">
-      <h3>Contact Me</h3>
+      <h3>{t("ContacMe.title")}</h3>
       <div className="contactGrid">
         <div className="contacts">
           <div className="contact">
@@ -55,7 +59,7 @@ const Contact = () => {
                 href="https://www.instagram.com/jpd_web_developer.23/"
                 target="_blank"
               >
-                Check my Instagram
+                {t("ContacMe.insta")}
               </a>
               <BsArrowRight className="rowRight" />
             </div>
@@ -70,22 +74,23 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=541153754846"
                 target="_blank"
               >
-                Write me
+                {t("ContacMe.wpp")}
               </a>
               <BsArrowRight className="rowRight" />
             </div>
           </div>
         </div>
         <div className="form">
-          <h4>Send me an e-mail</h4>
+          <h4>{t("ContacMe.title2")}</h4>
           <form className="inputs" ref={form} onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">{t("ContacMe.name")}</label>
             <input
               {...register("name", {
                 required: true,
               })}
               id="name"
               type="text"
+              placeholder={t("ContacMe.pl1")}
             />
             {errors.name?.type === "required" && (
               <p className="errorMessage">required information</p>
@@ -97,11 +102,12 @@ const Contact = () => {
               })}
               id="email"
               type="email"
+              placeholder={t("ContacMe.pl2")}
             />
             {errors.email?.type === "required" && (
               <p className="errorMessage">required information</p>
             )}
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">{t("ContacMe.msj")}</label>
             <textarea
               {...register("message", {
                 required: true,
@@ -109,12 +115,17 @@ const Contact = () => {
               id="message"
               cols="30"
               rows="10"
+              placeholder={t("ContacMe.pl3")}
             ></textarea>
             {errors.message?.type === "required" && (
               <p className="errorMessage">required information</p>
             )}
             <div className="divInpuntSend">
-              <input id="inputSubmit" type="submit" value="Send" />
+              <input
+                id="inputSubmit"
+                type="submit"
+                value={t("ContacMe.button")}
+              />
             </div>
           </form>
         </div>
