@@ -83,7 +83,7 @@ const Contact = () => {
         <div className="form">
           <h4>{t("ContacMe.title2")}</h4>
           <form className="inputs" ref={form} onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="name">{t("ContacMe.name")}</label>
+            <label>{t("ContacMe.name")}</label>
             <input
               {...register("name", {
                 required: true,
@@ -93,9 +93,9 @@ const Contact = () => {
               placeholder={t("ContacMe.pl1")}
             />
             {errors.name?.type === "required" && (
-              <p className="errorMessage">required information</p>
+              <p className="errorMessage">{t("Errors.errors")}</p>
             )}
-            <label htmlFor="email">Email</label>
+            <label>Email</label>
             <input
               {...register("email", {
                 required: true,
@@ -105,7 +105,7 @@ const Contact = () => {
               placeholder={t("ContacMe.pl2")}
             />
             {errors.email?.type === "required" && (
-              <p className="errorMessage">required information</p>
+              <p className="errorMessage">{t("Errors.errors")}</p>
             )}
             <label htmlFor="message">{t("ContacMe.msj")}</label>
             <textarea
@@ -118,7 +118,7 @@ const Contact = () => {
               placeholder={t("ContacMe.pl3")}
             ></textarea>
             {errors.message?.type === "required" && (
-              <p className="errorMessage">required information</p>
+              <p className="errorMessage">{t("Errors.errors")}</p>
             )}
             <div className="divInpuntSend">
               <input

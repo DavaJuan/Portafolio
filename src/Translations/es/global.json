@@ -42,5 +42,8 @@
   "Footer": {
     "phone": "Teléfono",
     "text": "Hecho por JPD."
+  },
+  "Errors": {
+    "errors": "Información requerida"
   }
 }

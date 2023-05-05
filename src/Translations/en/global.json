@@ -42,5 +42,8 @@
   "Footer": {
     "phone": "Phone",
     "text": "Made by JPD. All rights reserved"
+  },
+  "Errors": {
+    "errors": "required information"
   }
 }
