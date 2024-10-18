@@ -14,7 +14,7 @@
       rgba(5, 7, 12, 0.744),
       rgba(5, 7, 12, 0.744)
     ),
-    url("./Img/background.jpg");
+    url("./Img/BG-01-01.jpeg");
   background-position: center;
   background-repeat: no-repeat center center;
   background-size: cover;
@@ -35,9 +35,15 @@
   color: var(--primaryTextColor);
   text-transform: uppercase;
   padding: 1rem;
-  background: #8e2de2;
-  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: #3a7bd5;
+  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+  background: linear-gradient(to right, #3a6073, #3a7bd5);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  background: #00b4db;
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -46,8 +52,8 @@
 }
 
 .home-button:hover {
-  transition: 0.3s;
-  box-shadow: -6px 6px 10px #fafafa12;
+  transition: 0.5s;
+  box-shadow: -6px 6px 10px #000;
   transform: translateY(-6px);
 }
 
@@ -57,7 +63,7 @@
         rgba(5, 7, 12, 0.744),
         rgba(5, 7, 12, 0.744)
       ),
-      url("./Img/background-movile.jpg");
+      url("./Img/BG-Mobile-02.jpeg");
     background-position: center;
     background-repeat: no-repeat center center;
     background-size: cover;

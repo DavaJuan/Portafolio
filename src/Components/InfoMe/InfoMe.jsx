@@ -13,11 +13,7 @@ const InfoMe = () => {
       <div className="container-text">
         <h2>{t("InfoMe.title1")}</h2>
         <h4>Full Stack Developer</h4>
-        <p>
-          {t("InfoMe.InfoP")}
-          <br />
-          {t("InfoMe.InfoP2")}
-        </p>
+        {/* aca estaba el porrafo */}
         <button>
           <a className="link" download="JuanPDavalosCV" href={CV}>
             {t("InfoMe.cv")}
@@ -35,8 +31,12 @@ const InfoMe = () => {
           </a>
         </div>
       </div>
-      <div className="containerImg">
-        <img src={Me} alt="Me" />
+      <div className="container-text-2">
+        <p>
+          {t("InfoMe.InfoP")}
+          <br />
+          {t("InfoMe.InfoP2")}
+        </p>
       </div>
     </div>
   );

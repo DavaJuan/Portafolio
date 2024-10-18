@@ -5,19 +5,19 @@
     "button": "Contactame"
   },
   "InfoMe": {
-    "title1": "Mi nombre es Juan Pablo Dávalos",
-    "InfoP": "Desde 2021 me di cuenta que programar es algo que realmente disfruto mucho, practicando y aprendiendo cada día más. Pero en 2022 comencé a estudiar programación en el bootcamp Henry. Aprendiendo nuevas y desafiantes tecnologías.",
-    "InfoP2": "Hoy en día prefiero trabajar como Desarrollador FrontEnd.",
+    "title1": "Juan Pablo Dávalos.",
+    "InfoP": "Soy un estudiante de Ingeniería de Software en la Universidad Jala University. Llevando a cabo mi primer año universitario, aprendiendo el manejo de Máquinas Virtuales, Bases de Datos, Algoritmos y nuevas Tegnologías.",
+    "InfoP2": " Hoy en día me encuentro buscando mi primer trabajo como Desarrollador en el cual poder incrementar mis habilidades, tanto blandas como técnicas.",
     "cv": "Descargar mi CV"
   },
   "Skills": {
     "title": "Habilidades",
-    "title2": "Tecnologías y Frameworks con los que trabajo"
+    "title2": "Tecnologías y Frameworks."
   },
   "Education": {
     "title": "Educación",
-    "prog": "Programación",
-    "idioma": "Idioma",
+    "prog": "Programación:",
+    "idioma": "Idioma:",
     "sb1": "Desarrollador Full Stack",
     "sb2": "Inglés",
     "inst": "Instituto E.way",

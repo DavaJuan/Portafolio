@@ -2,103 +2,84 @@
   --primaryColor: #212121;
   --primaryLightColor: #484848;
   --primaryDarkColor: #000000;
-  --secondaryColor: #9474cc;
-  --secondaryLightColor: #c6a3ff;
-  --secondaryDarkColor: #64489b;
   --primaryTextColor: #fafafa;
   --secondaryTextColor: #f9f9f9;
 }
 
 .tech-container {
-  height: auto;
+  height: 100%;
   color: var(--primaryTextColor);
+  background-color: #0b0b0b;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+/* BOX 1 */
+
+.skills-box-1 {
+  height: 100%;
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2rem;
 }
 
 .titleSkills {
-  padding: 1rem;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.tech-container p {
-  padding: 1rem;
-  font-size: 1.2rem;
-}
-
-.skillsGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  align-content: center;
-  gap: 5rem;
-  margin: 2rem;
-}
-
-.skillsFront {
-  width: 300px;
-  border: 2px solid var(--primaryTextColor);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: -10px 10px 25px var(--primaryDarkColor);
-}
-
-.skillsFront h4 {
-  font-size: 1.6rem;
-  text-align: center;
+  font-size: 3.5rem;
   padding: 1rem;
 }
 
-.front {
-  display: grid;
-  grid-template-columns: 1fr;
-}
+/* BOX 2 */
 
-.front span {
-  margin: 0.5rem;
-  font-size: 1.3rem;
+.skills-box-2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f6eded;
+  color: #000000;
   font-weight: bold;
 }
 
-.skillsBack {
-  width: 300px;
-  border: 2px solid var(--primaryTextColor);
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: -10px 10px 25px var(--primaryDarkColor);
+.skills-front-back-end {
+  font-size: 2rem;
+  padding: 3rem;
+  text-align: center;
 }
 
-.skillsBack h4 {
-  font-size: 1.6rem;
-  text-align: center;
+.skills-box-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.skills-box-card span {
+  font-size: 2.5rem;
   padding: 1rem;
 }
 
-.back {
-  display: grid;
-  grid-template-columns: 1fr;
+.skills-box-card h4 {
+  font-size: 1rem;
 }
 
-.back span {
-  margin: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 789px) {
   .tech-container {
-    height: auto;
+    grid-template-columns: 1fr;
   }
 
-  .tech-container p {
+  .skills-box-2 {
+    background-color: #0b0b0b;
+    color: #f6eded;
     text-align: center;
   }
 
-  .skillsGrid {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 3rem;
+  .titleSkills {
+    padding: 2rem;
   }
 }

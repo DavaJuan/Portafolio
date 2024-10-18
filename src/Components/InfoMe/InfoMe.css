@@ -10,30 +10,30 @@
 }
 
 .grid {
-  height: 100vh;
+  min-height: 100vh;
   padding: 2rem;
   color: var(--primaryTextColor);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
+  background-color: #00000071;
 }
 
 .container-text h2 {
-  text-align: center;
   font-size: 3rem;
   padding: 1rem;
 }
 
 .container-text h4 {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 0.5rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-.container-text p {
+.container-text-2 p {
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  height: 100%;
 }
 
 .container-text button {
@@ -41,9 +41,15 @@
   margin: 1rem;
   border: none;
   border-radius: 10px;
-  background: #8e2de2;
-  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: #3a7bd5;
+  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+  background: linear-gradient(to right, #3a6073, #3a7bd5);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  background: #00b4db;
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
   color: var(--primaryTextColor);
   font-weight: bold;
   text-transform: uppercase;
@@ -77,10 +83,9 @@
     text-align: center;
   }
 
-  .containerImg img {
+  .container-text-2 p {
     margin: 1rem;
-    height: 300px;
-    border-radius: 150px;
+    text-align: center;
   }
 }
 

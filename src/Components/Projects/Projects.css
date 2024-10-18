@@ -9,14 +9,18 @@
   --secondaryTextColor: #f9f9f9;
 }
 
-.proyects-title {
+.projects-content-all {
+  background-color: #64489b;
+}
+
+.projects-title {
   font-size: 3rem;
   color: var(--primaryTextColor);
   text-align: center;
   padding: 2rem;
 }
 
-.container-proyects {
+.container-projects {
   height: 100%;
   margin: 2rem;
   display: flex;

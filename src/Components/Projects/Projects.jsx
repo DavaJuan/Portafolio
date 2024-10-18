@@ -8,9 +8,9 @@ const Projects = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="proyects-body">
-      <h3 className="proyects-title">{t("Projects.title")}</h3>
-      <div className="container-proyects">
+    <div className="projects-content-all">
+      <h3 className="projects-title">{t("Projects.title")}</h3>
+      <div className="container-projects">
         <Cards />
       </div>
     </div>

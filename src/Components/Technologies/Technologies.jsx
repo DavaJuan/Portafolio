@@ -3,68 +3,80 @@ import {
   SiHtml5,
   SiCss3,
   SiJavascript,
-  SiRedux,
-  SiTailwindcss,
   SiExpress,
-  SiPostgresql,
+  SiPython,
+  SiMongodb,
 } from "react-icons/si";
-import { RiReactjsFill } from "react-icons/ri";
+import { RiReactjsLine } from "react-icons/ri";
+import { FaJava } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 import { GrNode } from "react-icons/gr";
 import { useTranslation } from "react-i18next";
 
 import "./Technologies.css";
-import Education from "./Education/Education";
 
 const Technologies = () => {
   const [t, i18n] = useTranslation("global");
   return (
     <div className="tech-container">
-      <h3 className="titleSkills">{t("Skills.title")}</h3>
-      <p>{t("Skills.title2")}</p>
-      <div className="skillsGrid">
-        <div className="skillsFront">
-          <h4>Front End</h4>
-          <div className="front">
+      <div className="skills-box-1">
+        <h3 className="titleSkills">{t("Skills.title")}</h3>
+        <p>{t("Skills.title2")}</p>
+      </div>
+
+      <div className="skills-box-2">
+        <div className="skills-content">
+          <h4 className="skills-front-back-end">Front End</h4>
+          <div className="skills-box-card">
             <span>
-              <SiHtml5 /> HTML
+              <SiHtml5 />
+              <h4>HTML</h4>
             </span>
             <span>
-              <SiCss3 /> CSS
+              <SiCss3 />
+              <h4>CSS</h4>
             </span>
             <span>
-              <SiJavascript /> JavaScript
+              <SiJavascript />
+              <h4>JAVASCRIPT</h4>
             </span>
             <span>
-              <RiReactjsFill /> React
-            </span>
-            <span>
-              <SiRedux /> Redux
-            </span>
-            <span>
-              <RiReactjsFill /> React Native
-            </span>
-            <span>
-              <SiTailwindcss /> Tailwind
+              <RiReactjsLine />
+              <h4>REACT</h4>
             </span>
           </div>
         </div>
-        <div className="skillsBack">
-          <h4>Back End</h4>
-          <div className="back">
+
+        <div className="skills-titles">
+          <h4 className="skills-front-back-end">Back End</h4>
+          <div className="skills-box-card">
             <span>
-              <GrNode /> Node JS
+              <GrNode />
+              <h4>NODE JS</h4>
             </span>
             <span>
-              <SiExpress /> Express
+              <SiExpress />
+              <h4>EXPRESS</h4>
             </span>
             <span>
-              <SiPostgresql /> Postgresql
+              <FaJava />
+              <h4>JAVA</h4>
+            </span>
+            <span>
+              <SiPython />
+              <h4>PYTHON</h4>
+            </span>
+            <span>
+              <GrMysql />
+              <h4>MY SQL</h4>
+            </span>
+            <span>
+              <SiMongodb />
+              <h4>MONGO DB</h4>
             </span>
           </div>
         </div>
       </div>
-      <div></div>
-      <Education />
     </div>
   );
 };

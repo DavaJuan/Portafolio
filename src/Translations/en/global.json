@@ -5,9 +5,9 @@
     "button": "Contact Me"
   },
   "InfoMe": {
-    "title1": "My Name is Juan Pablo Dávalos",
-    "InfoP": "Since 2021 I realize that programming it is something that I really enjoy practicing and learning more every day. But in 2022 I started to studying programming in Henry's bootcamp. Learning news and challenging technologies.",
-    "InfoP2": "Today I prefer to work as a FrontEnd Developer.",
+    "title1": "Juan Pablo Dávalos.",
+    "InfoP": "I am an student of Software Engineering in the university of Jala University. Carrying out my first year, learning how to management Virtual Machines, Data Bases, Algorithms and new Technologies.",
+    "InfoP2": "I am looking for my first job as a Developer, whereby I can increase my soft skills and my technical skills.",
     "cv": "Download my cv"
   },
   "Skills": {
@@ -16,8 +16,8 @@
   },
   "Education": {
     "title": "Education",
-    "prog": "Programming",
-    "idioma": "Language",
+    "prog": "Programming:",
+    "idioma": "Language:",
     "sb1": "Full Stack Developer",
     "sb2": "English",
     "inst": "Institute E.way",

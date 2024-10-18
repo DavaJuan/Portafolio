@@ -17,7 +17,7 @@
 }
 
 .navBackground {
-  background-color: var(--primaryColor);
+  background-color: var(--primaryDarkColor);
   box-shadow: 0px 1px 25px var(--primaryDarkColor);
 }
 

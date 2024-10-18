@@ -1,0 +1,48 @@
+:root {
+  --primaryColor: #212121;
+  --primaryLightColor: #484848;
+  --primaryDarkColor: #000000;
+  --secondaryColor: #9474cc;
+  --secondaryLightColor: #c6a3ff;
+  --secondaryDarkColor: #64489b;
+  --primaryTextColor: #fafafa;
+  --secondaryTextColor: #f9f9f9;
+}
+
+.education-container-all {
+  color: #f9f9f9;
+  background-color: #00000071;
+  height: 100%;
+}
+
+.title-education {
+  padding: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.title-edutacion-subtitle {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin: 1rem;
+  padding: 2rem;
+  color: #f6eded9d;
+  text-align: center;
+}
+
+.education-card p {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .containerGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
