@@ -1,0 +1,82 @@
+.contact-info-card-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.card-info-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 180px;
+  font-size: 1.4rem;
+  padding: 1rem;
+  border: 2px solid #0000008f;
+  border-radius: 20px;
+}
+
+.card-info-contact span {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.card-info-contact p {
+  color: #000000c0;
+  padding: 10px;
+}
+
+.card-info-contact button {
+  margin-top: 10px;
+  padding: 0.8rem;
+  border: none;
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-info-contact button:hover {
+  background-color: #000000d9;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 789px) {
+  .contact-info-card-grid {
+    gap: 1rem;
+  }
+
+  .card-info-contact {
+    border: 1px solid #fff;
+  }
+
+  .card-info-contact p {
+    color: #fff;
+  }
+
+  .card-info-contact button {
+    margin-top: 10px;
+    padding: 0.8rem;
+    border: none;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .card-info-contact button:hover {
+    background-color: #ffffffd7;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .card-info-contact {
+    height: 120px;
+    width: 300px;
+  }
+
+  .card-info-contact p {
+    font-size: 15px;
+  }
+}

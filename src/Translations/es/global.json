@@ -6,7 +6,7 @@
   },
   "InfoMe": {
     "title1": "Juan Pablo Dávalos.",
-    "InfoP": "Soy un estudiante de Ingeniería de Software en la Universidad Jala University. Llevando a cabo mi primer año universitario, aprendiendo el manejo de Máquinas Virtuales, Bases de Datos, Algoritmos y nuevas Tegnologías.",
+    "InfoP": "Soy un estudiante de Ingeniería de Software en la Universidad Jala University. Nacido en Argentina, llevando a cabo mi primer año universitario, aprendiendo el manejo de Máquinas Virtuales, Bases de Datos, Algoritmos y nuevas Tegnologías.",
     "InfoP2": " Hoy en día me encuentro buscando mi primer trabajo como Desarrollador en el cual poder incrementar mis habilidades, tanto blandas como técnicas.",
     "cv": "Descargar mi CV"
   },
@@ -27,17 +27,15 @@
     "title": "Proyectos",
     "text": "Visitar sitio"
   },
-  "ContacMe": {
+  "ContacSection": {
     "title": "Contáctame",
-    "title2": "Envíame un email",
-    "name": "Nombre",
-    "msj": "Mensaje",
+    "name": "Nombre Completo:",
+    "email": "Correo Electrónico:",
+    "msj": "Mensaje:",
     "button": "Enviar",
-    "insta": "Visita mi Instagram",
-    "wpp": "Escríbeme",
-    "pl1": "Escríbe tú nombre",
-    "pl2": "Escríbe tú Email",
-    "pl3": "Escríbe un mensaje"
+    "ubicacion/location": "Ubicación:",
+    "email-completo": "Correo Personal:",
+    "telefono/phone": "Teléfono Personal:"
   },
   "Footer": {
     "phone": "Teléfono",

@@ -15,9 +15,7 @@ const InfoMe = () => {
         <h4>Full Stack Developer</h4>
         {/* aca estaba el porrafo */}
         <button>
-          <a className="link" download="JuanPDavalosCV" href={CV}>
-            {t("InfoMe.cv")}
-          </a>
+          <a className="link">{t("InfoMe.cv")}</a>
         </button>
         <div className="containerIcons">
           <a href="https://github.com/DavaJuan" target="_blanck">

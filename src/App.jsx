@@ -5,10 +5,9 @@ import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 import Footer2 from "./Components/Footer2/Footer2";
-import Contact from "./Components/Contact/Contact";
-import ButtonScroll from "./Components/ScrollUpButton/ButtonScroll";
 import NavBar from "./Components/NavBar/NavBar";
 import Education from "./Components/Education/Education";
+import ContactForm from "./Components/ContactForm/ContactForm";
 
 const App = () => {
   return (
@@ -18,10 +17,9 @@ const App = () => {
       {/* <Projects /> */}
       <Technologies />
       <Education />
-      <Contact />
+      <ContactForm />
       <Footer />
       <Footer2 />
-      <ButtonScroll />
     </div>
   );
 };

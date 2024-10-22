@@ -1,6 +1,4 @@
 import React from "react";
-import { BsCodeSlash } from "react-icons/bs";
-import { RiEnglishInput } from "react-icons/ri";
 import { useTranslation } from "react-i18next";
 
 import "./Education.css";

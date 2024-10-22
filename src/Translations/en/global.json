@@ -6,7 +6,7 @@
   },
   "InfoMe": {
     "title1": "Juan Pablo Dávalos.",
-    "InfoP": "I am an student of Software Engineering in the university of Jala University. Carrying out my first year, learning how to management Virtual Machines, Data Bases, Algorithms and new Technologies.",
+    "InfoP": "I am an student of Software Engineering in the university of Jala University. Borned in Argentina, carrying out my first year, learning how to management Virtual Machines, Data Bases, Algorithms and new Technologies.",
     "InfoP2": "I am looking for my first job as a Developer, whereby I can increase my soft skills and my technical skills.",
     "cv": "Download my cv"
   },
@@ -27,17 +27,15 @@
     "title": "Projects",
     "text": "Visit site"
   },
-  "ContacMe": {
-    "title": "Contact Me",
-    "title2": "Send me an e-mail",
-    "name": "Name",
-    "msj": "Message",
-    "button": "Send",
-    "insta": "Check my Instagram",
-    "wpp": "Write me",
-    "pl1": "Write your name",
-    "pl2": "Write your Email",
-    "pl3": "Write a message"
+  "ContacSection": {
+    "title": "Contact Form",
+    "name": "Full Name:",
+    "email": "Email Address:",
+    "msj": "Your Message:",
+    "button": "Send Message",
+    "ubicacion/location": "Location:",
+    "email-completo": "Email:",
+    "telefono/phone": "Cell Phone:"
   },
   "Footer": {
     "phone": "Phone",

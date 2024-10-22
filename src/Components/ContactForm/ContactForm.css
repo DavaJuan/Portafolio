@@ -1,0 +1,111 @@
+.container-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* box1 */
+.contact-box-1 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #f6eded;
+}
+
+.contact-box1-h4 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.contact-box1-h4 span {
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+/*box 2*/
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0b0b0b;
+  color: #f6eded;
+  font-weight: bold;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  background-color: #0b0b0b;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+form h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+form .input-box {
+  margin-top: 10px;
+  outline: none;
+}
+
+.field {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #f6eded;
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin: 10px;
+  color: #f6eded;
+}
+
+.field-mess {
+  width: 100%;
+  height: 200px;
+  background: transparent;
+  border: 1px solid #f6eded;
+  border-radius: 6px;
+  resize: none;
+  padding: 0.5rem;
+  margin: 10px;
+  color: #f6eded;
+}
+
+form button {
+  width: 100%;
+  height: 50px;
+  color: #f6eded;
+  background: #3a7bd5;
+  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+  background: linear-gradient(to right, #3a6073, #3a7bd5);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+  background: linear-gradient(to right, #2c3e50, #2980b9);
+  background: #00b4db;
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 789px) {
+  .container-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box-1 {
+    color: #f6eded;
+    background-color: #0b0b0b;
+  }
+}
