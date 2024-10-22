@@ -35,7 +35,7 @@
     "button": "Send Message",
     "ubicacion/location": "Location:",
     "email-completo": "Email:",
-    "telefono/phone": "Cell Phone:"
+    "boton-escribime": "Write Me!"
   },
   "Footer": {
     "phone": "Phone",

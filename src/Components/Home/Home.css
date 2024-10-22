@@ -27,7 +27,7 @@
 
 .home-tittle-welcome {
   color: var(--primaryTextColor);
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 2rem;
 }
 
@@ -70,13 +70,13 @@
   }
 
   .home-tittle-welcome {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 460px) {
   .home-tittle-welcome {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .home-button {

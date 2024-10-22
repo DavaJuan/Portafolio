@@ -34,8 +34,8 @@
     "msj": "Mensaje:",
     "button": "Enviar",
     "ubicacion/location": "Ubicación:",
-    "email-completo": "Correo Personal:",
-    "telefono/phone": "Teléfono Personal:"
+    "email-completo": "Correo:",
+    "boton-escribime": "Escribime!"
   },
   "Footer": {
     "phone": "Teléfono",

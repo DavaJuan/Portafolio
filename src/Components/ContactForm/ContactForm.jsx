@@ -1,7 +1,5 @@
 import Swal from "sweetalert2";
 import { useTranslation } from "react-i18next";
-import { IoLocationSharp, IoPhonePortraitOutline } from "react-icons/io5";
-import { MdOutlineMailOutline } from "react-icons/md";
 import "./ContactForm.css";
 import CardsInfo from "./CardsInfo/CardsInfo";
 
@@ -36,7 +34,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container-form-grid">
+    <div id="form-section" className="container-form-grid">
       <div className="contact-box-1">
         <div className="contact-box-1-sub">
           <CardsInfo />

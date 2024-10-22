@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className="home-tittle-welcome">
             {t("home.title1")} <br /> {t("home.title2")}.
           </h1>
-          <a href="#contacto">
+          <a href="#form-section">
             <button className="home-button">{t("home.button")}</button>
           </a>
         </div>
